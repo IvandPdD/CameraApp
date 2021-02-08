@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		2F123B6B25D1B31A00C33586 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F123B6A25D1B31A00C33586 /* AppDelegate.swift */; };
 		2F123B6D25D1B31A00C33586 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F123B6C25D1B31A00C33586 /* SceneDelegate.swift */; };
-		2F123B6F25D1B31A00C33586 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F123B6E25D1B31A00C33586 /* ViewController.swift */; };
+		2F123B6F25D1B31A00C33586 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F123B6E25D1B31A00C33586 /* PhotoViewController.swift */; };
 		2F123B7225D1B31A00C33586 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F123B7025D1B31A00C33586 /* Main.storyboard */; };
 		2F123B7425D1B31B00C33586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F123B7325D1B31B00C33586 /* Assets.xcassets */; };
 		2F123B7725D1B31B00C33586 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F123B7525D1B31B00C33586 /* LaunchScreen.storyboard */; };
+		8C5389BE84061A95E1BC24EA /* Pods_CameraApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF15EE8628BF202C3E62810 /* Pods_CameraApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1806561A36FDA0280F5F9A53 /* Pods-CameraApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraApp.release.xcconfig"; path = "Target Support Files/Pods-CameraApp/Pods-CameraApp.release.xcconfig"; sourceTree = "<group>"; };
 		2F123B6725D1B31A00C33586 /* CameraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F123B6A25D1B31A00C33586 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F123B6C25D1B31A00C33586 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2F123B6E25D1B31A00C33586 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F123B6E25D1B31A00C33586 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		2F123B7125D1B31A00C33586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F123B7325D1B31B00C33586 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F123B7625D1B31B00C33586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F123B7825D1B31B00C33586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60D36A744DD71D6542384058 /* Pods-CameraApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraApp.debug.xcconfig"; path = "Target Support Files/Pods-CameraApp/Pods-CameraApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FAF15EE8628BF202C3E62810 /* Pods_CameraApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CameraApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C5389BE84061A95E1BC24EA /* Pods_CameraApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				2F123B6925D1B31A00C33586 /* CameraApp */,
 				2F123B6825D1B31A00C33586 /* Products */,
+				779BA4B66E356603066E92BE /* Pods */,
+				534B71D8EA4254CEB97BCB0A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +65,31 @@
 			children = (
 				2F123B6A25D1B31A00C33586 /* AppDelegate.swift */,
 				2F123B6C25D1B31A00C33586 /* SceneDelegate.swift */,
-				2F123B6E25D1B31A00C33586 /* ViewController.swift */,
+				2F123B6E25D1B31A00C33586 /* PhotoViewController.swift */,
 				2F123B7025D1B31A00C33586 /* Main.storyboard */,
 				2F123B7325D1B31B00C33586 /* Assets.xcassets */,
 				2F123B7525D1B31B00C33586 /* LaunchScreen.storyboard */,
 				2F123B7825D1B31B00C33586 /* Info.plist */,
 			);
 			path = CameraApp;
+			sourceTree = "<group>";
+		};
+		534B71D8EA4254CEB97BCB0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAF15EE8628BF202C3E62810 /* Pods_CameraApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		779BA4B66E356603066E92BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60D36A744DD71D6542384058 /* Pods-CameraApp.debug.xcconfig */,
+				1806561A36FDA0280F5F9A53 /* Pods-CameraApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F123B7B25D1B31B00C33586 /* Build configuration list for PBXNativeTarget "CameraApp" */;
 			buildPhases = (
+				97B7A6F92F8E4FF254297561 /* [CP] Check Pods Manifest.lock */,
 				2F123B6325D1B31A00C33586 /* Sources */,
 				2F123B6425D1B31A00C33586 /* Frameworks */,
 				2F123B6525D1B31A00C33586 /* Resources */,
+				C52AB9E506F976CCFD8278AA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,12 +159,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		97B7A6F92F8E4FF254297561 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CameraApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C52AB9E506F976CCFD8278AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CameraApp/Pods-CameraApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CameraApp/Pods-CameraApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CameraApp/Pods-CameraApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2F123B6325D1B31A00C33586 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F123B6F25D1B31A00C33586 /* ViewController.swift in Sources */,
+				2F123B6F25D1B31A00C33586 /* PhotoViewController.swift in Sources */,
 				2F123B6B25D1B31A00C33586 /* AppDelegate.swift in Sources */,
 				2F123B6D25D1B31A00C33586 /* SceneDelegate.swift in Sources */,
 			);
@@ -283,6 +352,7 @@
 		};
 		2F123B7C25D1B31B00C33586 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60D36A744DD71D6542384058 /* Pods-CameraApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +371,7 @@
 		};
 		2F123B7D25D1B31B00C33586 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1806561A36FDA0280F5F9A53 /* Pods-CameraApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
